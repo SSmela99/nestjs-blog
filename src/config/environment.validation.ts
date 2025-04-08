@@ -11,4 +11,9 @@ export default Joi.object({
   DATABASE_NAME: Joi.string().required(),
   DATABASE_USER: Joi.string().required(),
   API_VERSION: Joi.string().required(),
+  JWT_SECRET: Joi.string().required(),
+  JWT_ISSUER: Joi.string().default('localhost:3000'),
+  JWT_AUDIENCE: Joi.string().default('localhost:3000'),
+  JWT_ACCESS_TOKEN_TTL: Joi.number().default(3600),
+  JWT_REFRESH_TOKEN_TTL: Joi.number().default(86400),
 });
