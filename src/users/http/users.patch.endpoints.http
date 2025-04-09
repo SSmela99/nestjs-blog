@@ -1,0 +1,7 @@
+PATCH http://localhost:3000/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoiam9obmRvZUBleGFtcGxlLmNvbSIsImlhdCI6MTc0NDIwMTk4MSwiZXhwIjoxNzQ0MjA1NTgxLCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.ApD1xu7dhu4iiw29_Hcrc9zam30V3MhltWlXHOx5bV8
+
+{
+    "firstname": "test"
+}
